@@ -5,9 +5,13 @@ Author: Tianchen Gu tcgu18@fudan.edu.cn
 
 # Requirement
 PyTorch
+
 GPyTorch
+
 NumPy
+
 SciPy
+
 *BoTorch (synthetic functions from BoTorch package, optional)
 
 # Introduction
