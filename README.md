@@ -81,5 +81,9 @@ A simple script to run the tSS-BO method can be written as:
 The synthetic experiments in paper 'tSS-BO: Scalable Bayesian Optimization for Analog Circuit Sizing via Truncated Subspace Sampling' can be conducted through the scripts in the main directory named as 'test_XXX_my_all_DDD.py', where XXX gives the test function name and DDD gives the dimensionality.
 
 The compared methods are from:
-TuRBO
 
+TuRBO https://github.com/uber-research/TuRBO
+CMA-ES https://github.com/CyberAgentAILab/cmaes
+
+# Citing us
+The detail paper can be found by D.A.T.E. 2024 conference at 2024 March 25-27. 
