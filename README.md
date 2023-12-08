@@ -22,19 +22,33 @@ The optimization process is in the './src/main.py' method, 'main_solver' for non
 The input parameters are same for 'main_solver' and 'main_solver_constrained'. The difference is the definition of the problem function.
 
 Following is the explaination of useful input parameters:
+
 funct: problem function, callable, input n X d tensor with n samples of d variables in [-0.5, 0.5] and output n X m tensor for 1 objective and m - 1 constraints. 
+
 dim: problem dimensionality, int
+
 nMax: maximum simulation budget, default 3000
+
 dataset_file: result pkl filename. We save the history x and y in the pkl file. default: './dataset_tSS_BO.pkl'
+
 use_BO: bool, default True. If false, BO method is not used, only truncated subspace sampling is used.
+
 k: int, default 100. The significance of the preceding k-iteration features will decay to 1% of the origin. 
+
 init_x: optional, n_init X d tensor. Feed some given initial points. Default: None, initialization with random
+
 init_y: optional, n_init X m tensor. Feed some given initial fitness. Default: None, initialization using funct.
+
 sigma: initial deviation of adaptive matrix, default 0.2.
+
 mu: the ratio of points for center update, default 0.5.
+
 batch_size: batch size for each optimization iteration, default 20. A comment is to set the batch size proportional to log(dim)
+
 n_training: local GP model training number, the more training sample used, the more time GP model used for training and prediction. Default min(dim * 2, 500)
+
 n_candidates: number of random samples of truncated Gaussian distribution, default 200
+
 Some other input parameters might not be helpful or should be deleted.
 
 # Example
