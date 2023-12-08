@@ -58,14 +58,21 @@ Some other input parameters might not be helpful or should be deleted.
 
 # Example
 A simple script to run the tSS-BO method can be written as:
+
  from src.main import *
+ 
  import pickle
+ 
  def f(x): # define the objective function
+ 
  ...
+ 
  return y # numpy array
 
  dim = 100 # dimensionality for x
+ 
  k = 3 * dim # decaying factor for previous features
+ 
  filename = 'result.pkl' # result file
 
  main_solver(f, dim, bounds, sigma = 0.2, mu = 0.5, batch_size = 20, n_candidates = 200, n_resample = 10, nMax = 3000, k = k, dataset_file = filename)
