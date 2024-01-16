@@ -83,6 +83,7 @@ The synthetic experiments in paper 'tSS-BO: Scalable Bayesian Optimization for A
 The compared methods are from:
 
 TuRBO https://github.com/uber-research/TuRBO
+
 CMA-ES https://github.com/CyberAgentAILab/cmaes
 
 # Citing us
