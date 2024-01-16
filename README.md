@@ -87,4 +87,4 @@ TuRBO https://github.com/uber-research/TuRBO
 CMA-ES https://github.com/CyberAgentAILab/cmaes
 
 # Citing us
-The detail paper can be found by D.A.T.E. 2024 conference at 2024 March 25-27. 
+The paper would be found by D.A.T.E. 2024 conference at 2024 March 25-27. And the citation format will be updated by the conference.
