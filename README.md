@@ -28,7 +28,7 @@ The input parameters are same for 'main_solver' and 'main_solver_constrained'. T
 
 Following is the explaination of useful input parameters:
 
-funct: problem function, callable, input n X d tensor with n samples of d variables in [-0.5, 0.5] and output n X m tensor for 1 objective and m - 1 constraints. 
+funct: problem function, callable, input n X d tensor with n samples of d variables in [-0.5, 0.5]^d and output n X m tensor for 1 objective and m - 1 constraints. 
 
 dim: problem dimensionality, int
 
@@ -63,7 +63,7 @@ A simple script to run the tSS-BO method can be written as:
  
  import pickle
  
- def f(x): # define the objective function
+ def f(x): # define the objective function with normalized search space [-0.5, 0.5] * d
  
  ...
  
