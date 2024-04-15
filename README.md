@@ -1,7 +1,7 @@
 # tSS-BO
 An opensource prototype code for synthetic benchmark experiments in coming conference D.A.T.E. 2024 'tSS-BO: Scalable Bayesian Optimization for Analog Circuit Sizing via Truncated Subspace Sampling'
 
-Author: Tianchen Gu tcgu18@fudan.edu.cn
+Author: Tianchen Gu tcgu18@fudan.edu.cn or tcgu96@163.com
 
 # Requirement
 PyTorch
