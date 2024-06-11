@@ -87,4 +87,24 @@ TuRBO https://github.com/uber-research/TuRBO
 CMA-ES https://github.com/CyberAgentAILab/cmaes
 
 # Citing us
-The paper would be found by D.A.T.E. 2024 conference at 2024 March 25-27. And the citation format will be updated by the conference.
+The paper could be found by D.A.T.E. 2024 conference at 2024 March 25-27.
+
+@INPROCEEDINGS{10546770,
+
+  author={Gu, Tianchen and Wang, Jiaqi and Bi, Zhaori and Yan, Changhao and Yang, Fan and Qin, Yajie and Cui, Tao and Zeng, Xuan},
+  
+  booktitle={2024 Design, Automation & Test in Europe Conference & Exhibition (DATE)}, 
+  
+  title={tSS-BO: Scalable Bayesian Optimization for Analog Circuit Sizing via Truncated Subspace Sampling}, 
+  
+  year={2024},
+  
+  volume={},
+  
+  number={},
+  
+  pages={1-6},
+  
+  keywords={Adaptation models;Upper bound;Runtime;Systematics;Optimization methods;Gaussian processes;Analog circuits;Analog Circuit Sizing;High-dimensional Optimization;Bayesian Optimization;Subspace Technique;Gradient Sketching},
+  
+  doi={}}
